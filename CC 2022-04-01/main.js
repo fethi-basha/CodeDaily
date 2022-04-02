@@ -12,7 +12,12 @@ For example:
 //P: 
 //Make a function that takes in array
 function doubled(arr) {
-    return arr.map(val => val *2)
+    if(arr === undefined || arr.length === 0) {
+        console.log('Array is invalid')
+    } else {
+        return arr.map(val => val *2)
+    }
+    
 }
 //map through the array and multiply each element by 2. Then return 
 doubled([1,2,3])
