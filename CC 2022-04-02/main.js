@@ -27,3 +27,15 @@ console.log(reverseArray(348597), [7,9,5,8,4,3])
 
 
 
+
+function reverseArr(n) {
+
+    let numArr = n.toString().split('').reverse()
+    
+    return numArr.map(Number)
+}
+
+reverseArr(348597)
+console.log(reverseArr(348597), [7,9,5,8,4,3])
+
+//needed to map through and make each string element and integer
