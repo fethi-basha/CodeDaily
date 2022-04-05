@@ -22,4 +22,25 @@ function removeEveryOther(arr) {
     //using filter to pass through module and find all even #s
 }
 
+//can also increase iteration in loop, either by push or splice 
+function removeEveryOther(arr) {
+    //add using push & double iteration 
+    let newArr = []
+    for(let i=0; i<arr.length; i+=2) {
+        newArr.push(arr[i])
+    }
+    return newArr
+
+}
+
+function removeEveryOther(arr) {
+    //remove using splice 
+    let newArr = []
+    for(let i=1; i<arr.length; i++) {
+        arr.splice(i,1)   //removes 1 element on i position 
+    }
+    return arr
+
+}
+
 removeEveryOther([1, 2, 3, 4, 5]) //true
