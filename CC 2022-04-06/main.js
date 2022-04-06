@@ -22,3 +22,10 @@ function findNeedle(hay) {
 
 findNeedle(['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false])   //found the needle at position 3
 
+//with indexOf 
+function findNeedle2(hay2) {
+
+    return 'found the noodle at position ' + hay2.indexOf('needle')
+}
+
+findNeedle(['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false])   //found the needle at position 3
