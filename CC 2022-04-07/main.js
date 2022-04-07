@@ -22,3 +22,10 @@ function squareSum(numbers) {
 squareSum([1, 2, 2])
 
 //Future try to impelement pow
+//implemeted with pow for cleanliness
+function squareSum(numbers) {
+    let sum =0
+    for(let i=0; i < numbers.length; i++) {
+        sum+= Math.pow(numbers[i], 2)
+    }
+}
