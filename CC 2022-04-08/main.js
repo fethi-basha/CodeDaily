@@ -23,4 +23,11 @@ function squareOrSqrRoot(arr) {
 }
 
 //Loop works to solve challenge. Although map might be efficient 
+// using MAP to sovle challenge, as map creates new arr and gives results
 
+function squareOrSquareRoot(arr) {
+    return arr.map(x => {
+        let squareRoot = Math.sqrt(x)
+        return (squareRoot % 1 == 0) ? squareRoot : (Math.pow(x,2))
+    })
+}
