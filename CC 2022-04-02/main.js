@@ -6,6 +6,10 @@ Example:
 348597 => [7,9,5,8,4,3]
 0 => [0]
 */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 44b2bc916f181143a633a4f868880fd433e30904
 //P:Are you ever given an empty array? What then? are they always digits?
 //R: Whatever the num was given, it is now split up into an array and the order of the numbers is reversed
 //E: if we are given 9258 => [8, 5, 2, 9]
@@ -26,6 +30,11 @@ console.log(reverseArray(348597), [7,9,5,8,4,3])
 //not working, thus trying to use map for next attempt 
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3f879d9f84309b2bed929eeadefdb19e8b5ed61f
+>>>>>>> 44b2bc916f181143a633a4f868880fd433e30904
 
 
 function reverseArr(n) {
